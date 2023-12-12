@@ -67,3 +67,63 @@ button
     display: block;
 
 }
+
+@media screen and (max-width: 600px)
+{
+    h1
+    {
+        font-size: 23px;
+        line-height: normal;
+    }
+    body
+    {
+        font-family: serif;
+        background-image: url('bg.jpg');
+        background-size: 375px 750px;
+        background-repeat: no-repeat;
+    }
+    #menu > ul{
+        background: #000;
+    }
+    #menu ul{
+        list-style: none;
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+    #menu ul a{
+        color: #DDF2FD;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 12px;
+        padding: 0 15px;
+        display: block;
+    }
+    #menu ul li{
+        float: left;
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+    #menu ul ul {
+        position: absolute;
+        background-color: #818FB4;
+        border-radius: 5%;
+        top: 100%;
+        display: none;
+    }
+    #menu ul ul li{
+        float:none;
+        width:100px;
+    }
+    #menu ul ul ul{
+        top: 0px;
+        left: 100%;
+    }
+    #menu ul li:hover >ul{
+        display: block;
+    
+    }
+    
+}
