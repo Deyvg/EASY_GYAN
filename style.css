@@ -127,3 +127,23 @@ button
     }
     
 }
+
+@media screen and (max-width: 1000px)
+{
+    body
+    {
+        font-family: serif;
+        background-image: url('bg.jpg');
+        background-size: 450px 100dvh;
+        background-repeat: no-repeat;
+    }
+    #menu ul a{
+        color: #DDF2FD;
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: bold;
+        line-height: 12px;
+        padding: 0 15px;
+        display: block;
+    }
+}
